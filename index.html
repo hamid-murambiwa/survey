@@ -9,66 +9,75 @@
 </head>
 
 <body id="main">
-    <h1 id="title">A survey form about Apple's computers </h1>
+    <h1 id="title">A survey form about Apple's  computers </h1>
     <hr>
     <h2 id="bc"><em>Thank you very much for taking the time to help us collect information on Apple's powerful computers </em></h2>
-
+    
     <form id="survey-form">
-
-        <p class="description" id="name-label"><strong>Name</strong></p>
-        <input type="text" id="name" class="input-box" name: "enter your name" placeholder="   Enter your name" required>
-
-        <p class="description" id="email-label"><strong>Email</strong></p><input type="email" class="input-box" id="email" placeholder="   Enter your email" min="example@gmail.com" required>
-
-        <p class="description" id="number-label"><strong>Number</strong></p><input type="number" class="input-box" id="number" placeholder="   Enter your number">
-
-        <p class="description" id="age-label"><strong>Age</strong></p><input type="number" class="input-box" id="age" placeholder="   Enter your age" min="5" max="99">
-
-        <p class="description" for="notebooks"><strong>What is your favourite apple computer :</strong></p>
-
-        <select name="apple computers" id="apple-computers" class="input-selection" placeholder="    Select an option">
-  <option>Select an option</option>  
-  <option value="MacBook Air">MacBook Air</option>
-  <option value="MacBook Pro">MacBook Pro</option>
-  <option value="Imac">iMac</option>
-  <option value="Mac Pro">Mac Pro</option>
-  <option value="Mac mini">Mac mini</option>  
-</select>
-
-
-        <p class="role"><strong>Which option best describes your current role?</strong></p>
-        <div class="radio">
-            <label for="Student"><input id="Student" type="radio" name="current role" value="Student">
-     <strong>Student</strong></label><br>
-
-            <label for="Full time learner"><input id="Full time learner" type="radio" name="current role" value="Full time job"><strong>Full time job</strong></label><br>
-
-            <label for="three"><input id="three" type="radio" name="items" value="Full time learner"><strong>Full time learner</strong></label><br>
-
+     
+      <p class="description" id="name-label"><strong>Name</strong></p>
+      <br>
+       <input type="text" id="name" class="input-box" name:"enter your name" placeholder="   Enter your name" required>
+      
+      <p class="description" id="email-label"><strong>Email</strong></p>
+      <br>
+      <input type="email" class="input-box" id="email" placeholder="   Enter your email" min="example@gmail.com" required>
+      
+      <p class="description" id="number-label"><strong>Number</strong></p>
+      <br>
+      <input type="number" class="input-box" id="number" placeholder="   Enter your number">
+      
+       <p class="description" id="age-label"><strong>Age</strong></p>
+      <br>
+      <input type="number" class="input-box" id="age" placeholder="   Enter your age" min="5" max="99">
+      
+      <p class="description" for="notebooks"><strong>What is your favourite apple computer :</strong></p>
+    <br>
+    <select name="apple computers" id="apple-computers" class="input-selection">
+      <option>Select an option</option>  
+      <option value="MacBook Air">MacBook Air</option>
+      <option value="MacBook Pro">MacBook Pro</option>
+      <option value="Imac">iMac</option>
+      <option value="Mac Pro">Mac Pro</option>
+      <option value="Mac mini">Mac mini</option>  
+    </select>
+      
+        
+        <p class="role" ><strong>Which option best describes your current role?</strong></p>
+          <div class="radio">    
+        <label for="Student"><input id="Student" type="radio" name="current role" value="Student">
+         <strong>Student</strong></label><br>
+        
+        <label for="Full time learner"><input id="Full time learner" type="radio" name="current role" value="Full time job"><strong>Full time job</strong></label><br>
+        
+        <label for="three"><input id="three" type="radio" name="items" value="Full time learner"><strong>Full time learner</strong></label><br>
+            
             <label for="none"><input id="none" type="radio" name="current role" value="none"><strong>None</strong></label><br>
-        </div>
-
-        <p class="description"><strong>What would you like to see improved?</p><p id="SM">(Check all that apply)</p>
-   <div  class="checkbox">  
-  <label for="Performance"><input id="Performance" type="checkbox" name="improvements" class="check-input" value="Performance"><strong>Performance</strong></label><br>
-            <label for="Memory"><input id="Memory" type="checkbox" name="improvements"  class="check-input" value="Memory"><strong>Memory</strong></label><br>
-            <label for="Storage"><input id="Storage" type="checkbox" name="improvements"  class="check-input" value="Storage"><strong>Storage</strong></label><br>
-            <label for="Speed"><input id="Speed" type="checkbox" name="improvements" class="check-input" value="Speed"><strong>Speed</strong></label><br>
-            <label for="Accuracy"><input id="Accuracy" type="checkbox" name="improvements"  class="check-input" value="Accuracy"><strong>Accuracy</strong></label><br>
-            <label for="Diligence"><input id="Diligence" type="checkbox" name="improvements" class="check-input" value="Diligence"><strong>Diligence</strong></label><br>
-            <label for="Display"><input id="Display" type="checkbox" name="improvements" value="three" class="check-input" value="Display"><strong>Display</strong></label><br>
-            <label for="Keyboard"><input id="Keyboard" type="checkbox" name="improvements"  class="check-input" value="Keyboard"><strong>Keyboard</strong></label><br>
-            <label for="Trackpad"><input id="Trackpad" type="checkbox" name="improvements"  class="check-input" value="Trackpad"><strong>Trackpad</strong></label><br>
-            <label for="Ports"><input id="Ports" type="checkbox" name="improvements" class="check-input" value="Ports"><strong>Ports</strong></label><br>
-            </div>
-
-            <p class="description">Any comments or suggestions?</p>
-
-            <textarea class="comment-section" name="comment" form="usrform" placeholder="  Enter your comment here..."></textarea>
-
-
-            <input type="submit" value="Submit" id="submit">
-
+      </div>
+       
+       <p class="description"><strong>What would you like to see improved?</p>
+      <br>
+         <p id="SM">(Check all that apply)</p>
+       <div  class="checkbox">  
+      <label for="Performance"><input id="Performance" type="checkbox" name="improvements" class="check-input" value="Performance"><strong>Performance</strong></label><br>
+       <label for="Memory"><input id="Memory" type="checkbox" name="improvements"  class="check-input" value="Memory"><strong>Memory</strong></label><br>
+         <label for="Storage"><input id="Storage" type="checkbox" name="improvements"  class="check-input" value="Storage"><strong>Storage</strong></label><br>
+         <label for="Speed"><input id="Speed" type="checkbox" name="improvements" class="check-input" value="Speed"><strong>Speed</strong></label><br>
+         <label for="Accuracy"><input id="Accuracy" type="checkbox" name="improvements"  class="check-input" value="Accuracy"><strong>Accuracy</strong></label><br>
+         <label for="Diligence"><input id="Diligence" type="checkbox" name="improvements" class="check-input" value="Diligence"><strong>Diligence</strong></label><br>
+         <label for="Display"><input id="Display" type="checkbox" name="improvements" value="three" class="check-input" value="Display"><strong>Display</strong></label><br>
+         <label for="Keyboard"><input id="Keyboard" type="checkbox" name="improvements"  class="check-input" value="Keyboard"><strong>Keyboard</strong></label><br>
+         <label for="Trackpad"><input id="Trackpad" type="checkbox" name="improvements"  class="check-input" value="Trackpad"><strong>Trackpad</strong></label><br>
+         <label for="Ports"><input id="Ports" type="checkbox" name="improvements" class="check-input" value="Ports"><strong>Ports</strong></label><br>
+      </div>
+      
+      <p class="description">Any comments or suggestions?</p>
+      <br>
+      <textarea class="comment-section" name="comment" form="usrform" placeholder="  Enter your comment here..."></textarea>
+      
+      
+      <input type="submit" value="Submit" id="submit">
+    
     </form>
 </body>
 
